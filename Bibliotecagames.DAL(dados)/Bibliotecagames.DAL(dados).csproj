@@ -40,11 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Editor.cs" />
-    <Compile Include="Genero.cs" />
-    <Compile Include="IntId.cs" />
-    <Compile Include="Jogo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BibliotecaGames.Entinies\BibliotecaGames.Entinies.csproj">
+      <Project>{36ac031d-3916-475c-9ac5-b61fe70e46ae}</Project>
+      <Name>BibliotecaGames.Entinies</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

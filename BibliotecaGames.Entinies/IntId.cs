@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bibliotecagames.DAL_dados_
+namespace Bibliotecagames.Entinies
 {
-    public class Editor : IntId
+    public class IntId
     {
-        
-        public string Nome { get; set; }
+        public int Id { get; set; }
     }
 }

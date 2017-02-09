@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bibliotecagames.DAL_dados_
-{
-    public class IntId
+namespace Bibliotecagames.Entinies
+{ 
+    public class Genero : IntId
     {
-        public int Id { get; set; }
+        public string Descricao { get; set; }
     }
 }
